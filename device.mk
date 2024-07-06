@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+#PRODUCT_FULL_TREBLE_OVERRIDE := true
+-include vendor/lineage-priv/keys/keys.mk
+
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
