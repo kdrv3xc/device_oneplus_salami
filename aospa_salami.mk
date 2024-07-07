@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+-include vendor/primes/primes/configs/keys/keys.mk
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -14,11 +16,11 @@ $(call inherit-product, device/oneplus/salami/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_salami
+PRODUCT_NAME := aospa_salami
 PRODUCT_DEVICE := salami
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := CPH2449
+PRODUCT_MODEL := CPH2451
 
 PRODUCT_SYSTEM_NAME := $(PRODUCT_MODEL)
 PRODUCT_SYSTEM_DEVICE := OP594DL1
@@ -26,8 +28,8 @@ PRODUCT_SYSTEM_DEVICE := OP594DL1
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="CPH2449EEA-user 14 TP1A.220905.001 T.R4T3.1703914-10e7c-35e9c release-keys" \
+    PRIVATE_BUILD_DESC="CPH2441-user 14 TP1A.220905.001 T.R4T3.1703914-10e7c-35e9c release-keys" \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
-BUILD_FINGERPRINT := OnePlus/CPH2449EEA/OP594DL1:14/TP1A.220905.001/T.R4T3.1703914-10e7c-35e9c:user/release-keys
+BUILD_FINGERPRINT := OnePlus/CPH2451/OP594DL1:14/TP1A.220905.001/T.R4T3.1703914-10e7c-35e9c:user/release-keys
