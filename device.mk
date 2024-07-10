@@ -5,7 +5,7 @@
 #
 
 #PRODUCT_FULL_TREBLE_OVERRIDE := true
--include vendor/lineage-priv/keys/keys.mk
+-include vendor/primes/primes/configs/keys/keys.mk
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
