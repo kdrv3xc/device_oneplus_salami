@@ -1,0 +1,13 @@
+odm/etc/libnfc-nci.conf
+vendor/lib64/vendor.qti.hardware.trustedui@1.0.so
+vendor/lib/vendor.qti.hardware.trustedui@1.0.so
+system_ext/lib64/vendor.qti.qesdhalaidl-V2-ndk.so
+system_ext/lib/vendor.qti.qesdhalaidl-V2-ndk.so
+vendor/lib64/vendor.qti.hardware.trustedui@1.0.so
+vendor/lib/vendor.qti.hardware.trustedui@1.0.so
+system_ext/lib64/vendor.qti.qesdhalaidl-V2-ndk.so
+system_ext/lib/vendor.qti.qesdhalaidl-V2-ndk.so
+vendor/lib64/vendor.oplus.hardware.radio-V2-ndk_platform.so
+vendor/lib/vendor.oplus.hardware.radio-V2-ndk_platform.so
+vendor/lib64/vendor.oplus.hardware.radio-V2-ndk_platform.so
+vendor/lib/vendor.oplus.hardware.radio-V2-ndk_platform.so
